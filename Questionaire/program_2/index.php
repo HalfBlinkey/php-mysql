@@ -1,7 +1,7 @@
 <?php
 
 //set default values to be used when page first loads
-$symptoms = 'runny_nose';
+$data = 'customer';
 
 //take action based on variable in POST array
 $data = filter_input(INPUT_POST, 'data');
